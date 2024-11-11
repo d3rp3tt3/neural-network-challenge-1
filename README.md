@@ -1,5 +1,7 @@
 # Predicting Student Loan Repayment with a TensorFlow Neural Network
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/d3rp3tt3/neural-network-challenge-1/blob/main/student_loans_with_deep_learning.ipynb)
+
 This project uses a neural network model to predict whether a student loan borrower will repay their loan.
 
 ## Project overview
@@ -46,3 +48,18 @@ There are two hidden layers.
 * f1 score: 0.74
 * Weighted accuracy: 0.74
 * Macro accuracy: 0.74
+
+## Running the project
+
+The simplest way to run the project is with Google Colab. Click the **Open in Colab** button below, and in the **Runtime** menu, click **Run All**.
+
+**IMPORTANT** Step 4 writes out the model, and Step 5 reads the model in. By default, these steps write and read using the local file system. With Google Colab, you will write the model to your Google Drive. Comment out the local file system lines and uncomment the Google Drive lines if you are using Google Colab.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/d3rp3tt3/neural-network-challenge-1/blob/main/student_loans_with_deep_learning.ipynb)
+
+To run this project locally, clone the GitHub repository and open the Jupyter Notebook in an IDE like VSCode running a Jupyter Server.
+
+Files in this project:
+
+* [/saved_models/student_loans.keras](./saved_models/student_loans.keras) - Saved model
+* [student_loans_with_deep_learning.ipynb](student_loans_with_deep_learning.ipynb): Jupyter Notebook used to build and validate the model
