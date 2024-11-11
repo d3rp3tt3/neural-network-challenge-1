@@ -51,9 +51,9 @@ There are two hidden layers.
 
 ## Running the project
 
-The simplest way to run the project is with Google Colab. Click the **Open in Colab** button below, and in the **Runtime** menu, click **Run All**.
+The simplest way to run the project is with Google Colab. Click the **Open in Colab** button below, and in the **Runtime** menu, click **Run All**. 
 
-**IMPORTANT** Step 4 writes out the model, and Step 5 reads the model in. By default, these steps write and read using the local file system. With Google Colab, you will write the model to your Google Drive. Comment out the local file system lines and uncomment the Google Drive lines if you are using Google Colab.
+**Note**: The project includes code to auto-detect whether you are running the Notebook locally or in Colab. Because the project writes out the Keras model as a `.keras` file and then loads it again, you will need to authorize access to Google Drive when running in Colab. Simply click the button at the bottom to authorize. You do not have to give it additional permissions.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/d3rp3tt3/neural-network-challenge-1/blob/main/student_loans_with_deep_learning.ipynb)
 
